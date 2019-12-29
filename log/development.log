@@ -1,0 +1,29 @@
+Started GET "/" for ::1 at 2019-12-29 10:16:53 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Tine/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Tine/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-29 10:20:31 -0500
+  
+SyntaxError (/Users/Tine/Desktop/liftuplocal/blog/app/controllers/welcome_controller.rb:1: syntax error, unexpected '<'
+<h1> Hi rails! </h1>
+^
+/Users/Tine/Desktop/liftuplocal/blog/app/controllers/welcome_controller.rb:1: syntax error, unexpected tFID, expecting do or '{' or '('
+<h1> Hi rails! </h1>
+        ^~~~~~
+/Users/Tine/Desktop/liftuplocal/blog/app/controllers/welcome_controller.rb:1: unterminated regexp meets end of file
+<h1> Hi rails! </h1>
+                     ^):
+  
+app/controllers/welcome_controller.rb:1: syntax error, unexpected '<'
+app/controllers/welcome_controller.rb:1: syntax error, unexpected tFID, expecting do or '{' or '('
+app/controllers/welcome_controller.rb:1: unterminated regexp meets end of file
+Started GET "/" for ::1 at 2019-12-29 10:22:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 570ms (Views: 568.6ms | ActiveRecord: 0.0ms)
+
+
